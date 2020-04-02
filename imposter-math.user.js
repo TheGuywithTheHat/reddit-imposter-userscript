@@ -35,7 +35,7 @@ let wordsToNumbers;!function (e) { var t = {}; function n(r) { if (t[r]) return 
 
             if(/\d.*==.*\d/.test(equation)) {
                 let correct = eval(equation);
-                element.style.backgroundColor = correct ? '#daffc9' : '#ff3b3b';
+                element.style.borderColor = correct ? '#00a841' : '#ff3b3b';
             }
         }
     }
